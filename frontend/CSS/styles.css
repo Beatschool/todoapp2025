@@ -1,0 +1,130 @@
+:root {
+    --primary: #252c41;
+    --secondary: #acf5efa8;    
+
+}
+
+nav, footer {
+    background-color: var(--primary);
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+.nav-link:hover {
+    color: var(--secondary);
+    
+
+
+}
+.btn-secondary {
+    background-color: var(--secondary);
+    color: black;
+    border-color: transparent;
+}
+
+.btn-secondary:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+}
+.bg-img {
+    background-image: url(../images/blackblue\ background.jpg);
+    min-height: 70vh;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* this code allows you to darken or lighten the background. */
+    /* background-blend-mode: overlay; */
+    /* background-color: rgba(19, 18, 18, 0.295); */
+
+}
+    /* this makes the body of the page the same as the footer and header so you do not see the white line at the bottom */
+body {   
+    background-color: --primary#20063d;
+}
+
+.pageNotReady {
+    background-color: white;
+    height: 66vh;
+    
+}
+
+form a {
+    text-decoration: none; 
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+
+form a:hover {
+    text-decoration: underline; 
+    color: var(--primary);
+}
+
+.box {
+    background-color: #badff5;
+    border-color: black;
+}
+.box1 {
+    background-color: white;
+    border-color: black;
+}
+
+.navbar-toggler {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.btnplans {
+    background-color: var(--secondary);   
+    box-shadow: black;
+    padding: 15px 50px;
+    font-size: large;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+
+} 
+
+.btnplans:hover{
+    background-color: black;
+    color: white;
+}
+.cardOne {
+    background-color: var(--secondary);
+    text-align: center; 
+    align-content: center;
+    display: flex;
+    margin: 70px 70px;
+    width: 250px;
+    height: 400px;
+    padding-top: 20px;
+ 
+   
+   
+} 
+.card-title {
+    font-size: 30px;
+}
+
+.card-text {
+    list-style-type: none;
+    text-align: left;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card-price {
+    font-size: 50px;
+    padding-top: 30px;
+
+}
+.features {
+    font-size: 20px;
+}
