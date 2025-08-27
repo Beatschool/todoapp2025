@@ -6,7 +6,7 @@
 const taskForm = document.getElementById("taskForm");
 const toDoList = document.getElementById("toDoList");
 const completedList = document.getElementById("completedList");
-const URL = "http://localhost:3000";
+const URL = "https://todoapp2025-xgl2.onrender.com";
 
 
 // ----------------------------------------- ↓ GENERAL FUNCTIONS ↓ -----------------------------------------
@@ -316,32 +316,8 @@ async function editTask(id) {
     } catch (error) {
         console.error("Error:", error);
         
-    }
-    
+    }  
 }
-
-
-function Monthy(id) {
-
-    const updatePrice = {
-        stPrice: document.getElementById("standPrice"),
-        plPrice: document.getElementById("plusPrice"),
-        prPrice: document.getElementById("proPrice")
-    }
-
-    const Moye ={
-        document.getElementById(Moye)
-
-    }
-}
-
-
-
-
-
-
-
-
 
 
 // async function getExample() {
