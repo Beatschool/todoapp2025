@@ -99,7 +99,7 @@ toDoList.addEventListener("click", (event) => {
     }
 });
 
-// Monthy.addEventListener("click", (event) => {
+// Monthy.addEventListener("click", () => {
 
 // }
 //     )
