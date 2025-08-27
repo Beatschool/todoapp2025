@@ -11,6 +11,8 @@ const app = express();
 // -------------------------------- ↓ MIDDLEWARE SETUP ↓ -----------------------------------
 
 app.use(express.json());
+
+con
 app.use(cors("*"));
 
 
