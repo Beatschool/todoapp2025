@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 
 const corsOptions = {
-    origin: ["https://todoapp2025-ve9h.vercel.app/"],
+    origin: "https://todoapp2025-ve9h.vercel.app/",
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
     Credential: true
 }
