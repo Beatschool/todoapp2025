@@ -15,8 +15,6 @@ nav, footer {
 .nav-link:hover {
     color: var(--secondary);
     
-
-
 }
 .btn-secondary {
     background-color: var(--secondary);
@@ -88,7 +86,8 @@ form a:hover {
     color: black;
     font-weight: bolder;
     font-size: 30px;
-
+    margin: 20px;
+    
 } 
 
 .btnplans:hover{
@@ -101,13 +100,20 @@ form a:hover {
     align-content: center;
     display: flex;
     margin: 70px 70px;
-    width: 250px;
-    height: 400px;
-    padding-top: 20px;
- 
+    width: 300px;
+    height: auto;
+    padding: 20px;  
+    border-radius: 20px;
    
-   
-} 
+}
+
+.cardOne:hover{
+    background-color: var(--primary);
+    color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: background-color 0.4s ease;     
+}
+
 .card-title {
     font-size: 30px;
 }
@@ -121,10 +127,34 @@ form a:hover {
 }
 
 .card-price {
-    font-size: 50px;
+    font-size: 40px;
     padding-top: 30px;
-
+    font-weight: bold;
 }
+
 .features {
     font-size: 20px;
 }
+
+.carousel-item {
+    width: 700;
+    height: 700px;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    border: black;
+    border-radius: 30px;
+}
+
+.social-icons {   
+    text-align: center;
+    gap: 20px;
+}
+
+.feature-words {
+    color: white;
+    margin-top: 70px;
+    text-wrap: center;
+    text-align: center;
+}
+

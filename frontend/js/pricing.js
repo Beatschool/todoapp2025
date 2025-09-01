@@ -1,22 +1,39 @@
-function test(h) {
-   h.classList.toggle("a") 
-   h.classList.contains("a") ? h.textContent = "day" : h.textContent = "night"
+// buttons and price elements
+const monthlyBtn = document.getElementById('monthly-btn');
+const yearlyBtn = document.getElementById('yearly-btn');
+const prices = document.querySelectorAll('.price');
+
+// Function to update prices based on the selected button
+function updatePrices(isMonthly) {
+    prices.forEach(price => {
+        const monthlyPrice = price.getAttribute('data-monthly');
+        const annualPrice = price.getAttribute('data-annual');
+
+        if (isMonthly) {
+            // monthly price
+            price.textContent = `$${monthlyPrice}/month`;
+        } else {
+            // annual price
+            price.textContent = `$${annualPrice}/year`;
+        }
+    });
 }
 
-function Monthy(id) {
 
-    const updatePrice = {
-        stPrice: document.getElementById("standPrice"),
-        plPrice: document.getElementById("plusPrice"),
-        prPrice: document.getElementById("proPrice")
-    }
+// Add event listeners to the buttons
+monthlyBtn.addEventListener('click', () => {
+    monthlyBtn.classList.add('active');
+    yearlyBtn.classList.remove('active');
+    updatePrices(true);
+});
 
-   //  const Moye ={
-   //      document.getElementById(Moye)
+yearlyBtn.addEventListener('click', () => {
+    yearlyBtn.classList.add('active');
+    monthlyBtn.classList.remove('active');
+    updatePrices(false);
+});
 
-   //  }
-}
-
+updatePrices(true);
 
 
 

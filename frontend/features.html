@@ -8,83 +8,161 @@
     <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
-    
-                                    <!----↓ navbar ↓--> 
-<nav class="navbar navbar-expand-lg">
-    <div class="container">
-        <a class="navbar-band" href="./index.html">
-            <img src="./images/list-clipboard.svg" alt="Logo" height="50pm" width="auto">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
-            <img src="./images/list-heart.svg" alt="hambuger icon" height="40px" width="auto">
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a href="./index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./features.html" class="nav-link">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./pricing.html" class="nav-link">Pricing</a>
-                </li>
-                <li class="nav-item d-block d-lg-none">
-                    <a href="./login.html" class="nav-link">Login</a>
-                </li>
-                <li class="nav-item d-block d-lg-none">
-                    <a href="./signup.html" class="nav-link">Signup</a>
-                </li>
-            </ul>
-            <div class="d-flex gap-2 ms-3 d-lg-block d-none">
-                <a class="btn btn-secondary" href="./login.html">Login</a>
-                <a class="btn btn-secondary" href="./signup.html">Signup</a>
+                                        <!----↓ navbar ↓--> 
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-band" href="./index.html">
+                <img src="./images/list-clipboard.svg" alt="Logo" height="50pm" width="auto">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
+                <img src="./images/list-heart.svg" alt="hambuger icon" height="40px" width="auto">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./features.html" class="nav-link">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pricing.html" class="nav-link">Pricing</a>
+                    </li>
+                    <li class="nav-item d-block d-lg-none">
+                        <a href="./login.html" class="nav-link">Login</a>
+                    </li>
+                    <li class="nav-item d-block d-lg-none">
+                        <a href="./signup.html" class="nav-link">Signup</a>
+                    </li>
+                </ul>
+                <div class="d-flex gap-2 ms-3 d-lg-block d-none">
+                    <a class="btn btn-secondary" href="./login.html">Login</a>
+                    <a class="btn btn-secondary" href="./signup.html">Signup</a>
+                </div>
             </div>
         </div>
-    </div>
-</nav>                                   
+    </nav>                                   
                                     <!----↑ navbar ↑--> 
 
                                     <!-- ↓ hero ↓ -->
 
-<section class="p-5 d-flex justify-content-center align-items-center flex-column pageNotReady">
-    <h1 class="text-center m-5">Oops this page is not ready yet</h1>
-    <a href="./index.html" class="text-black">Go Home</a>
-</section>                                                                                                                                                      
+    <section class=" bg-img py-5">
 
-                                    <!-- ↑ hero ↑ --> 
+                                <!---------- carousel ----------->
 
-                                    <!---- ↓ Footer ↓ --> 
+        <div id="carouselExampleAutoplaying" class="carousel slide container" style="margin-top: 0;" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/black to do list.jpg" class="d-block w-100" alt="to do list">
+                </div>
+                 <div class="carousel-item">
+                    <img src="./images/pink to do list.jpg" class="d-block w-100" alt="to do list">
+                </div>
+                 <div class="carousel-item">
+                    <img src="./images/colourful to do list.jpg" class="d-block w-100" alt="to do list">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
-<footer>
-    <div class="container py-5">
-        <div class="d-flex justify-content-between flex-colum gap-5 gap-md-0 flex-md-row align-items-center px3 mb-5">
-            <a href="./index.html">
-                <img src="./images/list-heart.svg" alt="logo" height="120px" width="auto">
-            </a>
-            <div class="col-12 col-sm-8 col-md 7 col-lg-5 col-xl-4">
-                <h3 class="text-white mb-3 text-center text-md-start">Subscribe to our Newsletter</h3>
-                <div class="input-group">
-                    <input type="email" class="form-control" placeholder="Enter your email">
-                    <button class="btn btn-secondary">Subscribe </button>
+                    <!-- features page details -->
+
+        <div class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class=" feature-words col-lg-6 text-center" >
+                        <h1 class="mb-4 ">Organise your day, simplify your life and get things done with ease.</h1>
+                        <P>Your tasks deserve more than just a checklist. Our app is built to help you stay focused, motivated, and in control - whether you are managing work projects, personal goals or everyday errands.
+                        </P>
+                        <p>Use our website and you will be able to add, edit, and delete task with ease.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./images/green to do list.png" class="img-fluid rounded" alt="About Us Image">
+                    </div>
+                </div>
+            </div>
+        </div>           
+        <div class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="  col-lg-6 ">
+                        <img src="./images/project task list.jpg" class="img-fluid rounded" alt="About Us Image">
+                    </div>
+                    <div class="feature-words col-lg-6 ">
+                        <h1 class="mb-4 " >Collaboration made simple</h1>
+                        <p style="color: white;">Share lists, assign tasks and stay connected - whether it's with your team, friends or family.</p>
+                        <br>
+                        <br>
+                        <h1>Break down big goals</h1>
+                        <p>Turn overwhelming projects into easy steps with subtasks and checklists that keep yuo moving forward.</p>
+                   </div>                   
                 </div>
             </div>
         </div>
-        <div class="d-flex justify-content-center flex-column gap-3 flex-md-row align-items-center">
-            <a class="nav-link" href="#">Privacy Policy</a>
-            <p class="m-0 d-none d-md-block">|</p>
-            <a class="nav-link" href="#">Terms of Service</a>
-            <p class="m-0 d-none d-md-block">|</p>
-            <p class="m-0">AssignmentList &COPY; 2025 All Rights Reserved</p>
-        </div>        
-    </div>
-</footer>
+                            <!-- social icons -->
+        <div class="social-icons row-3 " >
+            <a href="https://x.com/i/flow/login" target="_blank">
+                <img src="./images/X logo.jpg" alt="X" width="100px" height="100px">
+            </a>
+            <a href="https://chat.openai.com/" target="_blank">
+                <img src="./images/chatGPT2.jpg" alt="ChatGPT" width="100px" height="100px">
+            </a>
+            <a href="https://facebook.com/yourprofile" target="_blank">
+                <img src="./images/facebook2.jpg" alt="Facebook" width="100px" height="100px">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="./images/intsagram logo.jpg" alt="intsagram" width="100px" height="100px">
+            </a>
+            <a href="https://www.linkedin.com/login" target="_blank">
+                <img src="./images/linkedin2.jpg" alt="linkin" width="100px" height="100px">
+            </a>
+             <a href="https://www.google.com/xhtml/search" target="_blank">
+                <img src="./images/google2.jpg" alt="Google" width="100px" height="100px">
+            </a>
+             <a href="https://www.microsoft.com/en-us/microsoft-365/outlook/log-in" target="_blank">
+                <img src="./images/outlook2.jpg" alt="outlook" width="100px" height="100px">
+            </a>
+        </div>       
+    </section>                                
+                                    <!-- ↑ hero ↑ --> 
+    
+                                    <!---- ↓ Footer ↓ --> 
 
+    <footer>
+        <div class="container py-5">
+            <div class="d-flex justify-content-between flex-column gap-5 gap-md-0 flex-md-row align-items-center px3 mb-5">
+                <a href="./index.html">
+                    <img src="./images/list-heart.svg" alt="logo" height="120px" width="auto">
+                </a>
+                <div class="col-12 col-sm-8 col-md-7 col-lg-5 col-xl-4 " >
+                    <h3 class="text-white mb-3 text-center text-md-start" >Subscribe to our Newsletter</h3>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                        <button class="btn btn-secondary">Subscribe </button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center flex-column gap-3 flex-md-row align-items-center">
+                <a class="nav-link" href="#">Privacy Policy</a>
+                <p class="m-0 d-none d-md-block">|</p>
+                <a class="nav-link" href="#">Terms of Service</a>
+                <p class="m-0 d-none d-md-block">|</p>
+                <p class="m-0">AssignmentList &COPY; 2025 All Rights Reserved</p>
+            </div>        
+        </div>
+    </footer>
                                     <!---- ↑ Footer ↑-->
                                     
                                    <!-- ↓ Scripts ↓ -->
 
-
+    <script src="./js/features.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>

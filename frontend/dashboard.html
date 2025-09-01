@@ -49,39 +49,38 @@
 
     <main>
         <div class="bg-img py-5">
-                <div class="d-flex justify-content-center align-items-center flex-column container" >
-                    <div class="bg-white rounded shadow p-3 p-lg-5 col-12">
-                        <form id="taskForm" class="mb-5" >
-                            <h1 class="mb-5 display-2">Welcome</h1>
-                            <h2 class="mb-3">New Task</h2>
-                            <input id="taskName" type="text" placeholder="Task Name" class="mb-2 form-control shadow-sm" required>
-                            <textarea id="taskDescription" placeholder="Task Description" class="mb-2 form-control shadow-sm" rows="7" required></textarea>
-                            <input id="dueDate" type="date" class="mb-3 form-control shadow-sm" required>
-                            <button type="submit" class="btn btn-secondary shadow-sm px-5">Create Task</button>
-
-                        </form>
-                        <!-- Adjustment to be made later here -->
-                        <div class="d-flex align-items-center gap-3 mb-5">
-                            <label for="sortSelect">Sort by:</label>
-                            <select id="sortSelect" class="form-select w-auto shadow-none">
-                                <option value="default" selected>Default</option>
-                                <option value="dueDate">Due Date</option>
-                                <option value="dateCreated">Date Created</option>
-                            </select>
-                        </div> 
-                        <div class="row">                    
-                            <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-                                <h2 class="mb-3">To Do </h2>
-                                <ul id="toDoList" class="list-group"></ul>                                    
-                            </div>                       
-                            <div class="col-12 col-lg-6 mb-4 mb-lg-0">
-                                <h2 class="mb-3">Completed</h2>
-                                <ul id="completedList" class="list-group">                                   
-                                </ul>                            
-                            </div>
+            <div class="d-flex justify-content-center align-items-center flex-column container" >
+                <div class="bg-white rounded shadow p-3 p-lg-5 col-12">
+                    <form id="taskForm" class="mb-5" >
+                        <h1 class="mb-5 display-2">Welcome</h1>
+                        <h2 class="mb-3">New Task</h2>
+                        <input id="taskName" type="text" placeholder="Task Name" class="mb-2 form-control shadow-sm" required>
+                        <textarea id="taskDescription" placeholder="Task Description" class="mb-2 form-control shadow-sm" rows="7" required></textarea>
+                        <input id="dueDate" type="date" class="mb-3 form-control shadow-sm" required>
+                        <button type="submit" class="btn btn-secondary shadow-sm px-5">Create Task</button>
+                    </form>
+                    <!-- Adjustment to be made later here -->
+                    <div class="d-flex align-items-center gap-3 mb-5">
+                        <label for="sortSelect">Sort by:</label>
+                        <select id="sortSelect" class="form-select w-auto shadow-none">
+                            <option value="default" selected>Default</option>
+                            <option value="dueDate">Due Date</option>
+                            <option value="dateCreated">Date Created</option>
+                        </select>
+                    </div> 
+                    <div class="row">                    
+                        <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                            <h2 class="mb-3">To Do </h2>
+                            <ul id="toDoList" class="list-group"></ul>                                    
+                        </div>                       
+                        <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                            <h2 class="mb-3">Completed</h2>
+                            <ul id="completedList" class="list-group">                                   
+                            </ul>                            
                         </div>
                     </div>
-                </div> 
+                </div>
+            </div> 
         </div>
     </main>  
                                         <!-- ↑ hero ↑--> 
@@ -90,7 +89,7 @@
 
     <footer>
         <div class="container py-5">
-            <div class="d-flex justify-content-between flex-colum gap-5 gap-md-0 flex-md-row align-items-center px3 mb-5">
+            <div class="d-flex justify-content-between flex-column gap-5 gap-md-0 flex-md-row align-items-center px3 mb-5">
                 <a href="./index.html">
                     <img src="./images/list-heart.svg" alt="logo" height="120px" width="auto">
                 </a>
@@ -102,7 +101,7 @@
                     </div>
                 </div>
             </div>
-            <div class="d-flex justify-content-center flex-colum gap-3 flex-md-row align-items-center">
+            <div class="d-flex justify-content-center flex-column gap-3 flex-md-row align-items-center">
                 <a class="nav-link" href="#">Privacy Policy</a>
                 <p class="m-0 d-none d-md-block">|</p>
                 <a class="nav-link" href="#">Terms of Service</a>
@@ -112,7 +111,8 @@
         </div>
     </footer>
                                     <!----↑ Footer ↑ -->
- <!-- ↓ Edit Task Modal - pops up when needed ↓ -->
+
+                 <!-- ↓ Edit Task Modal - pops up when needed ↓ -->
 
     <div class="modal fade" id="editTaskWindow" tabindex="-1" aria-labelledby="editTaskModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
@@ -134,12 +134,10 @@
             </div>
         </div>
     </div>
-
-    <!-- ↑ Edit Task Modal ↑ -->
+                                    <!-- ↑ Edit Task Modal ↑ -->
 
                                     
                                     <!--↓ Scripts ↓-->
-
 
     <script src="./js/api.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>

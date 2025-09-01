@@ -99,17 +99,6 @@ toDoList.addEventListener("click", (event) => {
     }
 });
 
-// Monthy.addEventListener("click", () => {
-
-// }
-//     )
-
-
-
-
-
-
-
 // --------------------------------------------- ↓ TASK FUNCTIONS ↓ ---------------------------------------------
     
 
