@@ -17,9 +17,12 @@ nav, footer {
     
 }
 .btn-secondary {
-    background-color: var(--secondary);
+    background-color: rgb(69, 172, 158);
     color: black;
-    border-color: transparent;
+    border-color: black;
+    border-radius: 5px;
+    
+
 }
 
 .btn-secondary:hover {
